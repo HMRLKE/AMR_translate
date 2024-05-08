@@ -17,7 +17,7 @@ Create a Conda environment with Python 3.10 and install the required packages us
 conda create --name myenv python=3.10
 conda activate myenv
 pip install -r requirements.txt
-
+```
 
 ## Requirements
 
@@ -44,7 +44,7 @@ The script can be run from the command line with the following arguments:
 
 ### Example Command
 ```
-python sentence_translator.py "path/to/your/input.csv" 0 10 "your_deepl_api_key" --output_file_path "path/to/your/output.csv"
+python amr_translate.py --input_file_path "path/to/your/endre.txt" --m 0 --n 10 --deepl_key "your_deepl_api_key" --output_file_path "path/to/your/output.csv
 ```
 
 
