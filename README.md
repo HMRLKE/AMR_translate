@@ -7,8 +7,17 @@ This script allows you to translate sentences from English to Hungarian using th
 To run this script, you need Python installed on your system along with some additional packages. Follow these steps:
 
 1. Clone or download this repository to your local machine.
-2. Ensure you have Python installed. Python 3.6 or higher is recommended.
-3. Install the required Python packages using the `requirements.txt` provided in the repository.
+2. Ensure you have Anaconda or Miniconda installed, or install it from [here](https://www.anaconda.com/products/individual).
+
+### Create a Conda Environment
+
+Create a Conda environment with Python 3.10 and install the required packages using the following commands:
+
+```bash
+conda create --name myenv python=3.10
+conda activate myenv
+pip install -r requirements.txt
+
 
 ## Requirements
 
